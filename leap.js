@@ -1,5 +1,5 @@
 export const isLeap =  (year) => {
-    var isLeap = false;
+    let isLeap = false;
     if( isDivisibleBy(year,400) )
         isLeap = true;
     if( isDivisibleBy(year,4) && !isDivisibleBy(year,100) )
